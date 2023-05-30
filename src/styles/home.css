@@ -1358,7 +1358,8 @@ input[type=submit]:hover{
     }
     .about .inner_about .about_top .about_image_container img{
         width: 100%;
-        content: url('../../src/images/fatty.jpg');
+        content: url('../../src/images/luck.jpg');
+        border-radius: 10px;
     }
     .about .inner_about .about_top .about_image_container::before{
         top: -2.5%;
@@ -1402,11 +1403,14 @@ input[type=submit]:hover{
     }
     .home_project_gallery_bottom .image_container{
         height: 300px;
+        border-radius: 10px;
+        box-shadow: 2px 2px red;
     }
     .home_project_gallery_bottom .image_container .project_image{
         /* transform: scale(1.1, 1); */
         filter: brightness(0.9);
         -webkit-transform: scale(1.1);
+        
         transform: scale(1.1);
         height: 300px;
     }
