@@ -2,6 +2,29 @@
     margin: 0;
     padding: 0;
 }
+.chatme{
+    border: solid 2px red;
+    width:10%;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border-radius: 20px;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+}
+.chatme p{
+    color: white;
+}
+.chatme:hover{
+    cursor: pointer;
+    background-color: #156dee;
+    transition: 0.5s;
+    
+}
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
@@ -1071,7 +1094,25 @@ input[type=submit]:hover{
     .address_container{
         padding-right: 0;
     }
+    .chatme{
+        border: solid 2px red;
+        width:30%;
+        color: white;
+        padding-left: 10px; 
+        padding-right: 10px;
+        border-radius: 20px;
+        position: fixed;
+        z-index: 99;
+        bottom: 0;
+        right: 0;
+        background-color: red;
+    }
+    .chatme p{
+        color: white;
+    }
+
 }
+
 
 /* Handle some overflow at this screen size */
 @media only screen and (max-width: 1000px) {
